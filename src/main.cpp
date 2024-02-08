@@ -3,7 +3,7 @@
 #include <SoftwareSerial.h>
 
 #define RX_PIN 4
-#define TX_PIN 5
+#define TX_PIN 18
 
 uint16_t step;
 SoftwareSerial Serial_my(RX_PIN, TX_PIN, true);
